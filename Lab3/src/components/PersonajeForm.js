@@ -20,7 +20,7 @@ class PersojaneForm extends Component {
       nombre: '',
       clase: '',
       icono: '',
-      dificutad: 'low'
+      dificutad: ''
     });
   }
 
@@ -43,7 +43,7 @@ class PersojaneForm extends Component {
               className="form-control"
               value={this.state.nombre}
               onChange={this.handleInputChange}
-              placeholder="nombre"
+              placeholder="Name"
               />
           </div>
           <div className="form-group">
@@ -56,6 +56,7 @@ class PersojaneForm extends Component {
               <option>Mage</option>
               <option>Figther</option>
               <option>Marsman</option>
+              <option>Marsman</option>
             </select>
           </div>
           <div className="form-group">
@@ -65,7 +66,7 @@ class PersojaneForm extends Component {
               className="form-control"
               value={this.state.icono}
               onChange={this.handleInputChange}
-              placeholder="icono (link)"
+              placeholder="Icon (link)"
               />
           </div>
           <div className="form-group">
@@ -75,9 +76,9 @@ class PersojaneForm extends Component {
                 value={this.state.dificutad}
                 onChange={this.handleInputChange}
               >
-              <option>low</option>
-              <option>medium</option>
-              <option>high</option>
+              <option>Low</option>
+              <option>Medium</option>
+              <option>High</option>
             </select>
           </div>
           <div className="form-group">
@@ -87,9 +88,9 @@ class PersojaneForm extends Component {
                 value={this.state.dificutad}
                 onChange={this.handleInputChange}
               >
-              <option>Humano</option>
-              <option>Yourdle</option>
-              <option>Otro</option>
+              <option>Human</option>
+              <option>Yordle</option>
+              <option>Other</option>
             </select>
           </div>
           <button type="submit" className="btn btn-primary">

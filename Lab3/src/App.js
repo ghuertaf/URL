@@ -42,13 +42,14 @@ class App extends Component {
              <spam className="badge badge-pill badge-danger ml-2">
               {personaje.raza}
              </spam>
-             <spam className="badge badge-pill badge-danger ml-2">
-              {personaje.dificutad}
-             </spam>
             </div>            
             <div className = "card-body">
             <img src={personaje.icono}/>
+            <spam className="badge badge-pill badge-danger ml-2">
+              {personaje.dificutad}
+             </spam>
             <div className="card-footer">
+            
               <button
                 className="btn btn-danger"
                 onClick={this.removePersonaje.bind(this, i)}>
