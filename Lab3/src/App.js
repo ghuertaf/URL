@@ -39,6 +39,12 @@ class App extends Component {
              <spam className="badge badge-pill badge-danger ml-2">
               {personaje.clase}
              </spam>
+             <spam className="badge badge-pill badge-danger ml-2">
+              {personaje.raza}
+             </spam>
+             <spam className="badge badge-pill badge-danger ml-2">
+              {personaje.dificutad}
+             </spam>
             </div>            
             <div className = "card-body">
             <img src={personaje.icono}/>

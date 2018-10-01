@@ -47,14 +47,16 @@ class PersojaneForm extends Component {
               />
           </div>
           <div className="form-group">
-            <input
-              type="text"
-              name="clase"
-              className="form-control"
-              value={this.state.clase}
-              onChange={this.handleInputChange}
-              placeholder="clase"
-              />
+          <select
+                name="clase"
+                className="form-control"
+                value={this.state.dificutad}
+                onChange={this.handleInputChange}
+              >
+              <option>Mage</option>
+              <option>Figther</option>
+              <option>Marsman</option>
+            </select>
           </div>
           <div className="form-group">
             <input
@@ -63,7 +65,7 @@ class PersojaneForm extends Component {
               className="form-control"
               value={this.state.icono}
               onChange={this.handleInputChange}
-              placeholder="icono"
+              placeholder="icono (link)"
               />
           </div>
           <div className="form-group">
@@ -76,6 +78,18 @@ class PersojaneForm extends Component {
               <option>low</option>
               <option>medium</option>
               <option>high</option>
+            </select>
+          </div>
+          <div className="form-group">
+            <select
+                name="raza"
+                className="form-control"
+                value={this.state.dificutad}
+                onChange={this.handleInputChange}
+              >
+              <option>Humano</option>
+              <option>Yourdle</option>
+              <option>Otro</option>
             </select>
           </div>
           <button type="submit" className="btn btn-primary">
