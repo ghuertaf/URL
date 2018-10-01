@@ -3,31 +3,43 @@
         {
             "nombre":"Ahri",
             "clase":"Mage",
+            "dificutad":"medium",
+            "raza":"Humano",
             "icono": "https://vignette.wikia.nocookie.net/leagueoflegends/images/c/ce/Ahri_Portrait_profileicon.png/revision/latest?cb=20180618200408&format=original"
         },
         {
             "nombre":"Annie",
             "clase":"Mage",
+            "dificutad":"low",
+            "raza":"Humano",
             "icono": "https://vignette.wikia.nocookie.net/leagueoflegends/images/d/d4/Super_Galaxy_Annie_profileicon.png/revision/latest?cb=20171003201422&format=original"
         },
         {
             "nombre":"Lux",
             "clase":"Mage",
+            "dificutad":"medium",
+            "raza":"Humano",
             "icono": "https://vignette.wikia.nocookie.net/leagueoflegends/images/7/73/Lunar_Empress_Lux_profileicon.png/revision/latest?cb=20180617163733&format=original"
         },
         {
             "nombre":"Irelia",
             "clase":"Figther",
+            "dificutad":"high",
+            "raza":"Humano",
             "icono": "https://vignette.wikia.nocookie.net/leagueoflegends/images/9/96/Divine_Sword_Irelia_profileicon.png/revision/latest?cb=20180815223009&format=original"
         },
         {
             "nombre":"Teemo",
             "clase":"Marsman",
+            "dificutad":"low",
+            "raza":"Humano",
             "icono": "https://vignette.wikia.nocookie.net/leagueoflegends/images/4/47/Astronaut_Teemo_profileicon.png/revision/latest?cb=20170505021325&format=original"
         },
         {
             "nombre":"Jinx",
             "clase":"Marsman",
+            "dificutad":"medium",
+            "raza":"Humano",
             "icono": "https://vignette.wikia.nocookie.net/leagueoflegends/images/e/eb/Odyssey_Jinx_profileicon.png/revision/latest?cb=20180911214139&format=original"
         }
     ]
